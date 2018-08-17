@@ -1,0 +1,297 @@
+
+body,html {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-image: url(../images/oriental.png);
+    margin:0;
+    padding:0;
+   
+    
+
+}
+
+p {
+    line-height: 40px;
+    font-size: 16px;
+}
+
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 40px;
+
+}
+.topBar {
+        
+    background: #ffffff;
+    border-bottom-color: #cccccc;
+    border-width: 3px;
+    border-style: solid;
+    height: 90px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+
+.header {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-left: 210px;
+    margin-right: 50px;
+    padding: 25px;
+    margin-top: 0px;
+    display: inline-block;
+
+}
+
+.links {
+    margin-right: 200px;
+    margin-top: 5px;
+    padding: 35px;
+    
+    float: right;
+
+}
+
+a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin-left: 7px;
+    margin-right: 7px;
+   text-decoration: none;
+
+}
+
+a:visited {
+    color: #777777;
+}
+
+.mainSectionContent {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom:150px;
+    width: 960px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.about {
+    color: #4aaaa5;
+    padding-bottom: 25px;
+    
+}
+.lineBreak{
+    background-color: #cccccc;
+    border-color: #cccccc;
+    display: block;
+    height: 3px;
+    margin-bottom: 25px;
+    
+}
+
+img{ 
+    height: 150px;
+    width: auto;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
+   
+}
+
+.textRight p{
+    float:right;
+}
+
+.bottomBar {
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    height:60px;
+    border-top: #4aaaa5 solid 5px;
+    padding-top: 20px;
+
+}
+
+.smallTextBox {
+    height: 30px;
+    border-style:solid;
+    border-color:#cccccc;
+    border-width: 1px;
+    margin-bottom: 10px;
+    width: 95%;
+    
+}
+
+.bigTextBox {
+    height: 250px;
+    width: 95%;
+    border-style:solid;
+    border-color:#cccccc;
+    border-width: 1px;
+    margin-bottom: 10px;
+}
+
+
+.button {
+    background-color: #4aaaa5; /* teal */
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {background-color: #008080}
+
+.button:active {
+  background-color: #008080;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.portfolioItem {
+    float:left;
+    width: 30%;
+    margin-right: 40px;
+}
+
+.portfolioImg {
+    height: auto;
+    width: 100%;
+}
+
+.portfolioText {
+    background-color: #4aaaa5;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    top: 200px;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+
+@media screen and (max-width:980px) {
+   .header {
+       margin-left: 50px;
+   }
+   
+   .mainSectionContent {
+       margin-left: 50px;
+       width:45%;
+
+   }
+
+   .links {
+       margin-right: 80px;
+   }
+
+   .portfolioItem {
+        width: 40%;
+        margin-left: 30px;
+        margin-right: 0;
+
+       
+   }
+
+   .portfolioText {
+       position: relative;
+       top: 150px;
+   }
+
+   
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        margin-left: 20px;
+    }
+    
+    .mainSectionContent {
+        margin-left: 20px;
+        width:87%;
+ 
+    }
+ 
+    .links {
+        margin-right: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 15px;
+    }
+
+    .portfolioText {
+        position: relative;
+        top: 200px;
+    }
+ 
+    .portfolioItem {
+        width: 40%;
+        margin-left: 45px;
+        margin-right: 0;
+
+       
+   }
+
+
+    
+}
+
+@media screen and (max-width:640px) {
+
+    .header {
+        margin: 0 0 0 0;
+        display: block;
+        text-align: center;
+    }
+    
+    .mainSectionContent {
+        margin-left: 10px;
+        width:87%;
+ 
+    }
+ 
+    .links {
+      padding: 0;
+      margin: 0;
+      float: none;
+      position: relative;
+      top: 20px;
+      text-align: center;
+    }
+
+    .topBar {
+        height:150px;
+        
+    }
+
+    .portfolioItem {
+        float:left;
+        margin: 0 0 25px 0;
+        width: 100%;
+    }
+    .portfolioImg {
+       width: 100%;
+       height: auto;
+    }
+
+    .portfolioText {
+        position: relative;
+        top: 375px;
+    }
+
+
+    
+}
+
