@@ -257,8 +257,10 @@ img{
     }
     
     .mainSectionContent {
-        margin-left: 10px;
-        width:87%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding:20px;
+        width: 600px;
  
     }
  
