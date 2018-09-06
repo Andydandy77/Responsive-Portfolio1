@@ -101,6 +101,7 @@ img{
    
 }
 
+
 .textRight p{
     float:right;
 }
@@ -165,7 +166,7 @@ img{
 }
 
 .portfolioImg {
-    height: auto;
+    height: 250px;
     width: 100%;
 }
 
@@ -293,7 +294,7 @@ img{
         top: 375px;
     }
 
-
+ 
     
 }
 
